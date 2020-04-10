@@ -67,5 +67,5 @@ async def on_message(message):
     if message.content.startswith("!모든명령어"):
         await message.channel.send("!　안녕,!아임뚜렛,!채널의고비,!날씨,!혼란,!봇제작자,!그냥명령어,!쓸대없는명령어,!채널정보")
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ["Token-bot"]
 client.run(access_token)
